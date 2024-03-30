@@ -1,0 +1,33 @@
+{% extends 'main/layout.html' %}
+
+
+{% block title %} Настройки {% endblock %}
+
+
+{% block profile_img %}
+
+<img class="icons" src="../static/img/icons.jpg"/>
+<a class="navbar-brand">Илон Маск</a>
+
+{% endblock %}
+
+
+{% block content %}
+<ul class="content-main">
+    <div class="item-cool">
+        <li><a class="content-main-item-min">Вы:</a><li>
+        <li><a class="content-main-item-max">Илон Маск</a><li>
+    </div>
+
+    <div class="item-cool">
+        <li><a class="content-main-item-min">Ваша фотография:</a><li>
+        <img class="icons_set" src="../static/img/icons.jpg"/>
+    </div>
+
+    <div class="item-cool">
+        <ul class="line">
+            <li><a href="../settings/" class="line-btn">Поменять фотографию</a></li>
+        </ul>
+    </div>
+</ul>
+{% endblock %}

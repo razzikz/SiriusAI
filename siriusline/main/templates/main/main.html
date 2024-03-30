@@ -1,0 +1,33 @@
+{% extends 'main/layout.html' %}
+
+
+{% block title %} Главная страница {% endblock %}
+
+
+{% block profile_img %}
+
+<img class="icons" src="../static/img/icons.jpg"/>
+<a class="navbar-brand">Илон Маск</a>
+
+{% endblock %}
+
+
+{% block content %}
+<ul class="content-main">
+    <li><a class="content-main-item-min">Сейчас в очереди</a><li>
+    <li><a class="content-main-item-max">135</a><li>
+    <li><a class="content-main-item-min">человек</a><li>
+</ul>
+<a class="content-schedule-title">РАСПИСАНИЕ</a>
+<ul class="content-schedule-list">
+    <li><a class="content-schedule-list-item">Завтрак - 8:00</a><li>
+    <li><a class="content-schedule-list-item-now">Обед - 13:00</a><li>
+    <li><a class="content-schedule-list-item">Полдник - 15:00</a><li>
+    <li><a class="content-schedule-list-item">Ужин - 18:00</a><li>
+    <li><a class="content-schedule-list-item-note">*Очередь можно занять за час до начала приёма пищи</a><li>
+</ul>
+
+<ul class="line">
+    <li><a href="../queue/" class="line-btn">Занять очередь</a></li>
+</ul>
+{% endblock %}

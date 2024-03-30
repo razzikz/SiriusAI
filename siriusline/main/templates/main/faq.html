@@ -1,0 +1,39 @@
+{% extends 'main/layout.html' %}
+
+
+{% block title %} Наша команда {% endblock %}
+
+
+{% block profile_img %}
+
+<img class="icons" src="../static/img/icons.jpg"/>
+<a class="navbar-brand">Илон Маск</a>
+
+{% endblock %}
+
+
+{% block content %}
+<ul class="content-main">
+<a class="content-main-item">Наша команда</a>
+    <div class="item-cool">
+        <hr class="hr-main">
+        <li><a class="content-main-item-min">Чижиков Владимир</a><li>
+        <li><a class="content-main-item-min">Руководитель и Back-end разработчик</a><li>
+        <img class="icons_set" src="../static/img/chizhikov.jpg"/>
+    </div>
+
+    <div class="item-cool">
+        <hr class="hr-main">
+        <li><a class="content-main-item-min">Слынчук Максим</a><li>
+        <li><a class="content-main-item-min">Участник и Front-end разработчик</a><li>
+        <img class="icons_set" src="../static/img/slynchuk.jpg"/>
+    </div>
+
+    <div class="item-cool">
+        <hr class="hr-main">
+        <li><a class="content-main-item-min">Чертан Арсений</a><li>
+        <li><a class="content-main-item-min">Участник и Data-Scientist</a><li>
+        <img class="icons_set" src="../static/img/chertan.jpg"/>
+    </div>
+</ul>
+{% endblock %}
