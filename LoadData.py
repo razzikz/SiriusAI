@@ -53,6 +53,8 @@ print(y_tensor[0])
 class_names = label.fit_transform(class_names)
 print(type(class_names))
 
+
+#Below is the code for testing frame boxes / Ниже представлен код для тестирования подстановки фрейм-боксов
 # for i in range(617, len(y_train)):
 #     for boxes in y_train[i]:
 #         cv2.rectangle(x_train[i], (int(boxes[0]), int(boxes[1])), (int(boxes[2]), int(boxes[3])), (0, 255, 0), 2)
