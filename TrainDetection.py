@@ -32,6 +32,7 @@ model.save('model_v1', save_format='h5')
 loss, accuracy = model.evaluate(x_test, y_test, batch_size=128)
 print(f"Accuracy: {accuracy}\nLoss: {loss}")
 
+#Drawing loss function and accuracy graphs / Отрисовка графиков функции потерь и точности
 plt.plot(accuracy, 'g', label='Accuracy')
 plt.plot(loss, 'r', label='Loss')
 plt.legend(fontsize=14)
