@@ -1,4 +1,4 @@
-# Sirius.line Read Me File
+# Sirius.Line Read Me File
 
 Welcome to Sirius.line, a project developed by Chizikov Vova, Slyncuk Maxim, and Chertan Arseniy. 
 
