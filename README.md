@@ -1,6 +1,6 @@
 # Sirius.Line Read Me File
 
-Welcome to Sirius.line, a project developed by Chizikov Vova, Slyncuk Maxim, and Chertan Arseniy. 
+Welcome to Sirius.Line, a project developed by Chizikov Vladimir, Slyncuk Maxim and Chertan Arseniy. 
 
 ## Project Overview
 
@@ -30,8 +30,8 @@ That's it! You're now ready to dive into the world of Sirius.line and unleash yo
 
 ## Feedback and Contributions
 
-We welcome any feedback or contributions to improve Sirius.line. Feel free to reach out to us with your suggestions, bug reports, or feature requests. Together, let's make Sirius.line the best it can be.
+We welcome any feedback or contributions to improve Sirius.line. Feel free to reach out to us with your suggestions, bug reports, or feature requests. Together, let's make Sirius.Line the best it can be.
 
 Happy coding!
 
-- The Sirius.line Development Team
+- The Sirius.Line Development Team
