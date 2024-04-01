@@ -32,14 +32,14 @@ That's it! You're now ready to dive into the world of Sirius.line and unleash yo
 
 Principle of calculation of exit time and human position:  
   If the number of all classes (people, body, head) is the same, the counting formula is as follows:  
-    ```bash
+    ```
     FuncP = pos + posOff
     ```  
     where:  
     - pos — position people  
     - posOff — position online people  
   Else:  
-    ```bash
+    ```
     FuncP = int((p + h + b) / 3) + posOff
     ```  
     where:  
