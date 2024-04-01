@@ -31,7 +31,7 @@ That's it! You're now ready to dive into the world of Sirius.line and unleash yo
 # Back-End
 
 Principle of calculation of exit time and human position:  
-  If the number of all classes () is the same, the counting formula is as follows:  
+  If the number of all classes (people, body, head) is the same, the counting formula is as follows:  
     **FuncP = pos + posOff**  
     where:  
     - pos — position people  
