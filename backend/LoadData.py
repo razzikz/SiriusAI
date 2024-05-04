@@ -49,25 +49,15 @@ for img_file in os.listdir(data_img):
     y_pol.append(arr_pol_train)
     y1.append(arr)
 
-x, y = x1, y1
-length_arr = []
-for i in y:
-    length_arr.append(len(i))
+y_final = []
+for i in range(len(y1)):
+    for pol in y1[i]:
+        points = np.array(pol).astype(np.int_).reshape(1, -1, 2)
+        mask = cv2.polylines(x1[i], [points], True, (0, 255, 0), 2)
+        y_final.append(mask)
 
-padded_y = pad_sequences(y, maxlen=max(length_arr), padding='post')
-x_tensor, y_tensor = np.asarray(x1).astype(np.float_), np.asarray(padded_y).astype(np.float_)
+print(len(y_final))
 
-label = LabelBinarizer()
-class_names = np.asarray(label.fit_transform(['people', 'head', 'leg'])).astype(np.float_)
+x, y = np.asarray(x1).astype(np.float_), np.asarray(y_final).astype(np.float_)
 
-
-# for i in range(len(y)):
-#     for pol in y_pol[i]:
-#         points = np.array(pol).astype(np.int_).reshape(1, -1, 2)
-#         cv2.polylines(x[i], [points], True, (0, 255, 0), 2)
-#         for boxes in y[i]:
-#             cv2.rectangle(x[i], (int(boxes[0]), int(boxes[1])), (int(boxes[2]), int(boxes[3])), (0, 255, 0), 2)
-#     cv2.imshow('Image', x[i])
-#     cv2.waitKey(0)
-#
-# cv2.destroyAllWindows()
+print(x.shape, y.shape)
