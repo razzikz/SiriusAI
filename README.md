@@ -48,7 +48,7 @@ Principle of calculation of exit time and human position:
 
 ## Result
 
-[![Watch the video]([https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY](https://www.youtube.com/embed/DXQkLkpT-Zc?si=hiqMRakzjUaQvoo-))
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/DXQkLkpT-Zc?si=hiqMRakzjUaQvoo-)
 
 ## Feedback and Contributions
 
