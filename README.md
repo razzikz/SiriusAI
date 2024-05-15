@@ -47,7 +47,9 @@ Principle of calculation of exit time and human position:
     - p, h, b — people, head, body classes (respectively)  
 
 ## Result
-[![Watch the video](https://i.stack.imgur.com/a/J5BvwEv.img)](https://youtu.be/DXQkLkpT-Zc?si=hiqMRakzjUaQvoo-)
+https://youtu.be/DXQkLkpT-Zc?si=hiqMRakzjUaQvoo-
+
+You can follow the link above and get acquainted.with an example of a real test of trained models
 
 ## Feedback and Contributions
 
