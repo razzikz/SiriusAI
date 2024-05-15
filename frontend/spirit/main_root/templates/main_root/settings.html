@@ -1,0 +1,20 @@
+{% extends 'main/layout.html' %}
+
+
+{% block title %} Настройки {% endblock %}
+
+{% load static %}
+
+{% block content %}
+<ul class="content-main">
+    <div class="item-cool">
+        <li><a class="content-main-item-min">Вы:</a><li>
+        <li><a class="content-main-item-max">Илон Маск</a><li>
+    </div>
+
+    <div class="item-cool">
+        <li><a class="content-main-item-min">Ваша фотография:</a><li>
+        <img class="icons_set" src="{% static 'img/icons.jpg' %}"/>
+    </div>
+</ul>
+{% endblock %}
