@@ -48,11 +48,7 @@ Principle of calculation of exit time and human position:
 
 ## Result
 
-[//]: # (Video)
-
-<p align="center">
-  <img src="[https://user-images.githubusercontent.com/20010455/141007773-31928c53-a57c-45ac-9dea-199f72767462.gif](https://www.youtube.com/embed/DXQkLkpT-Zc?si=hiqMRakzjUaQvoo-)" alt="Demo of object detection model trained with TensorFlow and XML annotations" width="640" height="360" />
-</p>
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
 
 ## Feedback and Contributions
 
