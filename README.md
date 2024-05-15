@@ -46,6 +46,11 @@ Principle of calculation of exit time and human position:
     - posOff — position online people  
     - p, h, b — people, head, body classes (respectively)  
 
+## Result
+
+<iframe src="https://www.youtube.com/embed/DXQkLkpT-Zc?si=hiqMRakzjUaQvoo-"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 15px;"></iframe>
+
 ## Feedback and Contributions
 
 We welcome any feedback or contributions to improve Sirius.line. Feel free to reach out to us with your suggestions, bug reports, or feature requests. Together, let's make Sirius.Line the best it can be.
